@@ -1,0 +1,156 @@
+; ModuleID = '<stdin>'
+source_filename = "-"
+
+@ascii_0 = constant i32 48
+
+declare void @_sysy_starttime(i32)
+
+declare void @_sysy_stoptime(i32)
+
+declare i32 @_sysy_getch()
+
+declare void @_sysy_putch(i32)
+
+declare i32 @_sysy_getint()
+
+declare void @_sysy_putint(i32)
+
+declare i32 @_sysy_getarray(i32*)
+
+declare void @_sysy_putarray(i32, i32*)
+
+define i32 @my_getint() {
+entry:
+  br label %while.cond
+
+while.cond:                                       ; preds = %if.end, %if.then, %entry
+  %c3 = phi i32 [ undef, %entry ], [ %1, %if.then ]
+  br i1 true, label %while.body, label %while.end
+
+while.body:                                       ; preds = %while.cond
+  %_sysy_getch = call i32 @_sysy_getch()
+  %0 = load i32, i32* @ascii_0, align 4
+  %1 = sub i32 %_sysy_getch, %0
+  %2 = icmp slt i32 %1, 0
+  br i1 %2, label %or.end, label %or.rhs
+
+or.rhs:                                           ; preds = %while.body
+  %3 = icmp sgt i32 %1, 9
+  br label %or.end
+
+or.end:                                           ; preds = %or.rhs, %while.body
+  %4 = phi i1 [ true, %while.body ], [ %3, %or.rhs ]
+  br i1 %4, label %if.then, label %if.else
+
+if.then:                                          ; preds = %or.end
+  br label %while.cond
+
+if.else:                                          ; preds = %or.end
+  br label %while.end
+
+if.end:                                           ; No predecessors!
+  br label %while.cond
+
+while.end:                                        ; preds = %if.else, %while.cond
+  %c2 = phi i32 [ %c3, %while.cond ], [ %1, %if.else ]
+  br label %while.cond1
+
+while.cond1:                                      ; preds = %if.end6, %while.end
+  %c1 = phi i32 [ %c2, %while.end ], [ %6, %if.end6 ]
+  %sum0 = phi i32 [ %c2, %while.end ], [ %11, %if.end6 ]
+  br i1 true, label %while.body2, label %while.end7
+
+while.body2:                                      ; preds = %while.cond1
+  %_sysy_getch3 = call i32 @_sysy_getch()
+  %5 = load i32, i32* @ascii_0, align 4
+  %6 = sub i32 %_sysy_getch3, %5
+  %7 = icmp sge i32 %6, 0
+  br i1 %7, label %and.rhs, label %and.end
+
+and.rhs:                                          ; preds = %while.body2
+  %8 = icmp sle i32 %6, 9
+  br label %and.end
+
+and.end:                                          ; preds = %and.rhs, %while.body2
+  %9 = phi i1 [ false, %while.body2 ], [ %8, %and.rhs ]
+  br i1 %9, label %if.then4, label %if.else5
+
+if.then4:                                         ; preds = %and.end
+  %10 = mul i32 %sum0, 10
+  %11 = add i32 %10, %6
+  br label %if.end6
+
+if.else5:                                         ; preds = %and.end
+  br label %while.end7
+
+if.end6:                                          ; preds = %if.then4
+  br label %while.cond1
+
+while.end7:                                       ; preds = %if.else5, %while.cond1
+  %c0 = phi i32 [ %c1, %while.cond1 ], [ %6, %if.else5 ]
+  ret i32 %sum0
+}
+
+define void @my_putint(i32 %0) {
+entry:
+  %b = alloca [16 x i32], align 4
+  br label %while.cond
+
+while.cond:                                       ; preds = %while.body, %entry
+  %i1 = phi i32 [ 0, %entry ], [ %8, %while.body ]
+  %"0" = phi i32 [ %0, %entry ], [ %7, %while.body ]
+  %1 = icmp sgt i32 %"0", 0
+  br i1 %1, label %while.body, label %while.end
+
+while.body:                                       ; preds = %while.cond
+  %2 = sext i32 %i1 to i64
+  %3 = getelementptr inbounds [16 x i32], [16 x i32]* %b, i64 0, i64 %2
+  %4 = srem i32 %"0", 10
+  %5 = load i32, i32* @ascii_0, align 4
+  %6 = add i32 %4, %5
+  store i32 %6, i32* %3, align 4
+  %7 = sdiv i32 %"0", 10
+  %8 = add i32 %i1, 1
+  br label %while.cond
+
+while.end:                                        ; preds = %while.cond
+  br label %while.cond1
+
+while.cond1:                                      ; preds = %while.body2, %while.end
+  %i0 = phi i32 [ %i1, %while.end ], [ %10, %while.body2 ]
+  %9 = icmp sgt i32 %i0, 0
+  br i1 %9, label %while.body2, label %while.end3
+
+while.body2:                                      ; preds = %while.cond1
+  %10 = sub i32 %i0, 1
+  %11 = sext i32 %10 to i64
+  %12 = getelementptr inbounds [16 x i32], [16 x i32]* %b, i64 0, i64 %11
+  %13 = load i32, i32* %12, align 4
+  call void @_sysy_putch(i32 %13)
+  br label %while.cond1
+
+while.end3:                                       ; preds = %while.cond1
+  ret void
+}
+
+define i32 @main() {
+entry:
+  %my_getint = call i32 @my_getint()
+  br label %while.cond
+
+while.cond:                                       ; preds = %while.body, %entry
+  %m0 = phi i32 [ undef, %entry ], [ %my_getint1, %while.body ]
+  %n0 = phi i32 [ %my_getint, %entry ], [ %1, %while.body ]
+  %0 = icmp sgt i32 %n0, 0
+  br i1 %0, label %while.body, label %while.end
+
+while.body:                                       ; preds = %while.cond
+  %my_getint1 = call i32 @my_getint()
+  call void @my_putint(i32 %my_getint1)
+  call void @_sysy_putch(i32 10)
+  %1 = sub i32 %n0, 1
+  br label %while.cond
+
+while.end:                                        ; preds = %while.cond
+  ret i32 0
+}

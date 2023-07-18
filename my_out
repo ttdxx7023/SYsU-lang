@@ -1,0 +1,25 @@
+; ModuleID = '<stdin>'
+source_filename = "-"
+
+define void @func() {
+entry:
+  br label %while.cond
+
+while.cond:                                       ; preds = %while.body, %entry
+  %a0 = phi i32 [ undef, %entry ], [ %1, %while.body ]
+  %0 = icmp sgt i32 %a0, 0
+  br i1 %0, label %while.body, label %while.end
+
+while.body:                                       ; preds = %while.cond
+  %1 = sub i32 %a0, 1
+  br label %while.cond
+
+while.end:                                        ; preds = %while.cond
+  ret void
+}
+
+define i32 @main() {
+entry:
+  call void @func()
+  ret i32 0
+}

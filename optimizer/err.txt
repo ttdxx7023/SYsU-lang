@@ -1,0 +1,51 @@
+[287/647] /workspace/SYsU-lang/tester/function_test2022/73_int_io.sysu.c
+=================================================
+sysu-optimizer: static analysis results
+=================================================
+NAME                 #N DIRECT CALLS
+-------------------------------------------------
+_sysy_getch          2         
+_sysy_putch          2         
+my_getint            2         
+my_putint            1         
+-------------------------------------------------
+
+Compile Finish.
+[287/647] clang -O3: 0us, ret 0
+warning: overriding the module target triple with x86_64-pc-linux-gnu [-Woverride-module]
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.      Program arguments: /usr/lib/llvm-11/bin/clang -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name a.ll -mrelocation-model static -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -fno-split-dwarf-inlining -debugger-tuning=gdb -resource-dir /usr/lib/llvm-11/lib/clang/11.0.1 -O0 -fdebug-compilation-dir /autograder -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -o /tmp/a-18cb0c.o -x ir /tmp/tmpvpk6dzv0/a.ll 
+1.      Code generation
+2.      Running pass 'Function Pass Manager' on module '/tmp/tmpvpk6dzv0/a.ll'.
+3.      Running pass 'Remove unreachable blocks from the CFG' on function '@my_getint'
+ #0 0x00007f1cf2a27f8f llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xbd0f8f)
+ #1 0x00007f1cf2a262f0 llvm::sys::RunSignalHandlers() (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xbcf2f0)
+ #2 0x00007f1cf2a28465 (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xbd1465)
+ #3 0x00007f1cf9bff140 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x13140)
+ #4 0x00007f1cf2b187f2 llvm::PHINode::removeIncomingValue(unsigned int, bool) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xcc17f2)
+ #5 0x00007f1cf2a7a57e llvm::BasicBlock::removePredecessor(llvm::BasicBlock*, bool) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xc2357e)
+ #6 0x00007f1cf32839f3 llvm::DetatchDeadBlocks(llvm::ArrayRef<llvm::BasicBlock*>, llvm::SmallVectorImpl<llvm::cfg::Update<llvm::BasicBlock*> >*, bool) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0x142c9f3)
+ #7 0x00007f1cf3283c4d llvm::DeleteDeadBlocks(llvm::ArrayRef<llvm::BasicBlock*>, llvm::DomTreeUpdater*, bool) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0x142cc4d)
+ #8 0x00007f1cf3284020 llvm::EliminateUnreachableBlocks(llvm::Function&, llvm::DomTreeUpdater*, bool) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0x142d020)
+ #9 0x00007f1cf2b37059 llvm::FPPassManager::runOnFunction(llvm::Function&) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xce0059)
+#10 0x00007f1cf2b3c603 llvm::FPPassManager::runOnModule(llvm::Module&) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xce5603)
+#11 0x00007f1cf2b37670 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1+0xce0670)
+#12 0x00007f1cf85a46e6 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/usr/lib/x86_64-linux-gnu/libclang-cpp.so.11+0x164f6e6)
+#13 0x00007f1cf885edcc clang::CodeGenAction::ExecuteAction() (/usr/lib/x86_64-linux-gnu/libclang-cpp.so.11+0x1909dcc)
+#14 0x00007f1cf8ef80c8 clang::FrontendAction::Execute() (/usr/lib/x86_64-linux-gnu/libclang-cpp.so.11+0x1fa30c8)
+#15 0x00007f1cf8eae641 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/usr/lib/x86_64-linux-gnu/libclang-cpp.so.11+0x1f59641)
+#16 0x00007f1cf8f5e200 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/usr/lib/x86_64-linux-gnu/libclang-cpp.so.11+0x2009200)
+#17 0x00000000004131bf cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/usr/lib/llvm-11/bin/clang+0x4131bf)
+#18 0x00000000004115fe (/usr/lib/llvm-11/bin/clang+0x4115fe)
+#19 0x000000000041140a main (/usr/lib/llvm-11/bin/clang+0x41140a)
+#20 0x00007f1cf1978d0a __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x23d0a)
+#21 0x000000000040e89a _start (/usr/lib/llvm-11/bin/clang+0x40e89a)
+clang: error: unable to execute command: Segmentation fault (core dumped)
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+Debian clang version 11.0.1-2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+clang: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+ir error

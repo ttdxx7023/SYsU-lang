@@ -1,0 +1,502 @@
+const 'const'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:2:1>
+int 'int'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:2:7>
+identifier 'test_const'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:2:11>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:2:22>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:2:24>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:2:25>
+int 'int'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:3:1>
+identifier 'ex'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:3:5>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:3:8>
+numeric_constant '0'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:3:10>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:3:11>
+typedef 'typedef'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:4:1>
+unsigned 'unsigned'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:4:9>
+char 'char'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:4:18>
+identifier 'BYTE'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:4:23>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:4:27>
+void 'void'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:5:1>
+identifier 'test_void'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:5:6>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:5:15>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:5:16>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:5:17>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:5:18>
+int 'int'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:6:1>
+identifier 'test_extern'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:6:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:6:16>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:6:17>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:6:18>
+extern 'extern'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:7:5>
+int 'int'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:7:12>
+identifier 'ex'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:7:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:7:18>
+identifier 'ex'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:8:5>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:8:8>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:8:10>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:8:11>
+return 'return'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:9:5>
+identifier 'ex'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:9:12>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:9:14>
+r_brace '}'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:10:1>
+identifier 'bool'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:11:1>
+identifier 'test_op'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:11:6>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:11:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:11:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:11:15>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:5>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:11>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:13>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:12:14>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:16>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:18>
+numeric_constant '2'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:12:20>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:12:21>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:13:5>
+identifier 'c'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:13:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:13:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:13:13>
+plus '+'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:13:15>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:13:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:13:18>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:14:5>
+identifier 'd'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:14:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:14:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:14:13>
+minus '-'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:14:15>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:14:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:14:18>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:15:5>
+identifier 'e'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:15:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:15:11>
+exclaim '!'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:15:13>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:15:14>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:15:15>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:16:5>
+identifier 'f'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:16:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:16:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:16:13>
+star '*'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:16:15>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:16:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:16:18>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:17:5>
+identifier 'g'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:17:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:17:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:17:13>
+slash '/'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:17:15>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:17:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:17:18>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:18:5>
+identifier 'h'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:18:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:18:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:18:13>
+percent '%'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:18:15>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:18:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:18:18>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:19:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:19:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:19:8>
+less '<'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:19:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:19:12>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:19:13>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:19:14>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:19:15>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:20:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:20:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:20:8>
+greater '>'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:20:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:20:12>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:20:13>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:20:14>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:20:15>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:21:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:21:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:21:8>
+lessequal '<='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:21:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:21:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:21:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:21:15>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:21:16>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:22:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:22:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:22:8>
+greaterequal '>='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:22:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:22:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:22:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:22:15>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:22:16>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:23:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:23:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:23:8>
+equalequal '=='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:23:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:23:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:23:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:23:15>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:23:16>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:24:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:24:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:24:8>
+exclaimequal '!='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:24:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:24:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:24:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:24:15>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:24:16>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:25:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:25:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:25:8>
+ampamp '&&'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:25:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:25:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:25:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:25:15>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:25:16>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:26:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:26:7>
+identifier 'a'		Loc=</workspace/SYsU-lang/tester/mytest.c:26:8>
+pipepipe '||'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:26:10>
+identifier 'b'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:26:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:26:14>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:26:15>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:26:16>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:27:5>
+identifier 'i'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:27:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:27:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:27:13>
+plusplus '++'		Loc=</workspace/SYsU-lang/tester/mytest.c:27:14>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:27:16>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:28:5>
+identifier 'j'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:28:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:28:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:28:13>
+plusequal '+='		Loc=</workspace/SYsU-lang/tester/mytest.c:28:14>
+numeric_constant '1'		Loc=</workspace/SYsU-lang/tester/mytest.c:28:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:28:17>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:29:5>
+identifier 'k'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:29:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:29:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:29:13>
+minusminus '--'		Loc=</workspace/SYsU-lang/tester/mytest.c:29:14>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:29:16>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:30:5>
+identifier 'l'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:30:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:30:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:30:13>
+minusequal '-='		Loc=</workspace/SYsU-lang/tester/mytest.c:30:14>
+numeric_constant '1'		Loc=</workspace/SYsU-lang/tester/mytest.c:30:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:30:17>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:31:5>
+identifier 'm'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:31:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:31:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:31:13>
+starequal '*='		Loc=</workspace/SYsU-lang/tester/mytest.c:31:14>
+numeric_constant '2'		Loc=</workspace/SYsU-lang/tester/mytest.c:31:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:31:17>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:32:5>
+identifier 'n'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:32:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:32:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:32:13>
+slashequal '/='		Loc=</workspace/SYsU-lang/tester/mytest.c:32:14>
+numeric_constant '2'		Loc=</workspace/SYsU-lang/tester/mytest.c:32:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:32:17>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:33:5>
+identifier 'o'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:33:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:33:11>
+identifier 'a'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:33:13>
+percentequal '%='		Loc=</workspace/SYsU-lang/tester/mytest.c:33:14>
+numeric_constant '2'		Loc=</workspace/SYsU-lang/tester/mytest.c:33:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:33:17>
+r_brace '}'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:34:1>
+int 'int'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:35:1>
+identifier 'main'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:35:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:35:9>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:35:10>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:35:11>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:5>
+identifier 'i'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:11>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:13>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:36:14>
+identifier 'ix'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:16>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:19>
+numeric_constant '0x123'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:21>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:36:26>
+identifier 'io'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:28>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:31>
+numeric_constant '0123'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:33>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:36:37>
+identifier 'ib'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:39>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:42>
+numeric_constant '10'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:44>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:36:46>
+identifier 'ie'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:48>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:51>
+numeric_constant '1e-1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:36:53>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:36:57>
+auto 'auto'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:37:5>
+identifier 'at'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:37:10>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:37:13>
+numeric_constant '1.1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:37:15>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:37:18>
+float 'float'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:38:5>
+identifier 'f'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:38:11>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:38:13>
+numeric_constant '2.2'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:38:15>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:38:18>
+double 'double'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:5>
+identifier 'de'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:12>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:15>
+numeric_constant '.2e5'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:17>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:39:21>
+identifier 'dp'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:23>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:26>
+numeric_constant '0x12.3p5'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:39:28>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:39:36>
+long 'long'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:40:5>
+identifier 'l'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:40:10>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:40:12>
+numeric_constant '111111111111111111111'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:40:14>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:40:35>
+long 'long'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:41:5>
+long 'long'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:41:10>
+identifier 'll'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:41:15>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:41:18>
+numeric_constant '11111111111111111111111111'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:41:20>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:41:46>
+enum 'enum'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:5>
+identifier 'week'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:10>
+l_brace '{'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:15>
+identifier 'Sun'		Loc=</workspace/SYsU-lang/tester/mytest.c:42:16>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:42:19>
+identifier 'Mon'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:21>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:42:24>
+identifier 'Tue'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:26>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:42:29>
+identifier 'Wed'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:31>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:42:34>
+identifier 'Thu'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:36>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:42:39>
+identifier 'Fri'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:41>
+comma ','		Loc=</workspace/SYsU-lang/tester/mytest.c:42:44>
+identifier 'Sat'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:42:46>
+r_brace '}'		Loc=</workspace/SYsU-lang/tester/mytest.c:42:49>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:42:50>
+register 'register'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:43:5>
+identifier 'reg'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:43:14>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:43:18>
+numeric_constant '12345'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:43:20>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:43:25>
+short 'short'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:44:5>
+identifier 'sh'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:44:11>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:44:14>
+numeric_constant '111111'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:44:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:44:22>
+signed 'signed'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:45:5>
+int 'int'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:45:12>
+identifier 'si'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:45:16>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:45:19>
+minus '-'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:45:21>
+numeric_constant '123'		Loc=</workspace/SYsU-lang/tester/mytest.c:45:22>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:45:25>
+unsigned 'unsigned'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:46:5>
+int 'int'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:46:14>
+identifier 'usi'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:46:18>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:46:22>
+numeric_constant '123'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:46:24>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:46:27>
+static 'static'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:47:5>
+int 'int'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:47:12>
+identifier 'static_int'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:47:16>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:47:27>
+numeric_constant '456'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:47:29>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:47:32>
+struct 'struct'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:48:5>
+identifier 'student'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:48:12>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:49:5>
+char 'char'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:50:9>
+identifier 'name'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:50:14>
+l_square '['		Loc=</workspace/SYsU-lang/tester/mytest.c:50:18>
+numeric_constant '50'		Loc=</workspace/SYsU-lang/tester/mytest.c:50:19>
+r_square ']'		Loc=</workspace/SYsU-lang/tester/mytest.c:50:21>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:50:22>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:51:9>
+identifier 'id'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:51:13>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:51:15>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:52:5>
+identifier 's'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:52:7>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:52:8>
+union 'union'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:53:5>
+identifier 'Data'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:53:11>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:54:5>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:55:9>
+identifier 'i'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:55:13>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:55:14>
+float 'float'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:56:9>
+identifier 'f'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:56:15>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:56:16>
+char 'char'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:57:9>
+identifier 'str'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:57:14>
+l_square '['		Loc=</workspace/SYsU-lang/tester/mytest.c:57:17>
+numeric_constant '20'		Loc=</workspace/SYsU-lang/tester/mytest.c:57:18>
+r_square ']'		Loc=</workspace/SYsU-lang/tester/mytest.c:57:20>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:57:21>
+identifier 'bool'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:58:9>
+identifier 'check'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:58:14>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:58:19>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:59:5>
+identifier 'data'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:59:7>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:59:11>
+identifier 'BYTE'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:60:5>
+identifier 'test_type'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:60:10>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:60:20>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:60:22>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:60:23>
+identifier 'test_void'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:61:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:61:14>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:61:15>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:61:16>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:62:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:62:7>
+identifier 'test_type'		Loc=</workspace/SYsU-lang/tester/mytest.c:62:8>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:62:17>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:62:18>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:64:5>
+else 'else'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:65:5>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:65:9>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:67:5>
+while 'while'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:68:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:68:10>
+exclaim '!'		Loc=</workspace/SYsU-lang/tester/mytest.c:68:11>
+identifier 'test_type'		Loc=</workspace/SYsU-lang/tester/mytest.c:68:12>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:68:21>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:68:22>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:70:5>
+do 'do'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:71:5>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:71:7>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:73:5>
+while 'while'		Loc=</workspace/SYsU-lang/tester/mytest.c:73:6>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:73:11>
+exclaim '!'		Loc=</workspace/SYsU-lang/tester/mytest.c:73:12>
+identifier 'test_type'		Loc=</workspace/SYsU-lang/tester/mytest.c:73:13>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:73:22>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:73:23>
+for 'for'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:74:8>
+int 'int'		Loc=</workspace/SYsU-lang/tester/mytest.c:74:9>
+identifier 'i'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:13>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:15>
+numeric_constant '0'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:74:18>
+identifier 'i'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:20>
+less '<'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:22>
+numeric_constant '2'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:24>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:74:25>
+identifier 'i'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:74:27>
+plusplus '++'		Loc=</workspace/SYsU-lang/tester/mytest.c:74:28>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:74:30>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:74:31>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:75:9>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:75:11>
+identifier 'i'		Loc=</workspace/SYsU-lang/tester/mytest.c:75:12>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:75:13>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:75:14>
+break 'break'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:76:13>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:76:18>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:77:9>
+else 'else'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:78:9>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:78:13>
+continue 'continue'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:79:13>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:79:21>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:80:9>
+identifier 'test_type'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:81:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:81:19>
+numeric_constant '0'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:81:21>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:81:22>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:82:5>
+switch 'switch'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:83:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:83:11>
+identifier 'test_type'		Loc=</workspace/SYsU-lang/tester/mytest.c:83:12>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:83:21>
+l_brace '{'		Loc=</workspace/SYsU-lang/tester/mytest.c:83:22>
+case 'case'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:84:9>
+numeric_constant '0'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:84:14>
+colon ':'		Loc=</workspace/SYsU-lang/tester/mytest.c:84:15>
+identifier 'test_type'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:84:17>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:84:27>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:84:29>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:84:30>
+case 'case'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:85:9>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:85:14>
+colon ':'		Loc=</workspace/SYsU-lang/tester/mytest.c:85:15>
+identifier 'test_type'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:85:17>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:85:27>
+numeric_constant '0'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:85:29>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:85:30>
+default 'default'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:86:9>
+colon ':'		Loc=</workspace/SYsU-lang/tester/mytest.c:86:16>
+identifier 'test_type'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:86:18>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:86:28>
+numeric_constant '11'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:86:30>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:86:32>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:87:5>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:89:5>
+identifier 'test'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:89:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:89:14>
+numeric_constant '10'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:89:16>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:89:18>
+identifier 'LOOP'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:90:5>
+colon ':'		Loc=</workspace/SYsU-lang/tester/mytest.c:90:9>
+do 'do'		Loc=</workspace/SYsU-lang/tester/mytest.c:90:10>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:91:5>
+if 'if'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:92:9>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:92:11>
+identifier 'test'		Loc=</workspace/SYsU-lang/tester/mytest.c:92:12>
+equalequal '=='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:92:17>
+numeric_constant '10'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:92:20>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:92:22>
+l_brace '{'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:93:9>
+identifier 'test'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:95:13>
+plusequal '+='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:95:18>
+numeric_constant '1'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:95:21>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:95:22>
+goto 'goto'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:96:13>
+identifier 'LOOP'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:96:18>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:96:22>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:97:9>
+identifier 'test'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:98:9>
+minusminus '--'		Loc=</workspace/SYsU-lang/tester/mytest.c:98:13>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:98:15>
+r_brace '}'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:99:5>
+while 'while'		Loc=</workspace/SYsU-lang/tester/mytest.c:99:6>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:99:11>
+identifier 'test'		Loc=</workspace/SYsU-lang/tester/mytest.c:99:12>
+greater '>'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:99:17>
+numeric_constant '5'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:99:19>
+r_paren ')'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:99:21>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:99:22>
+char 'char'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:100:5>
+identifier 'str'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:100:10>
+l_square '['		Loc=</workspace/SYsU-lang/tester/mytest.c:100:13>
+numeric_constant '20'		Loc=</workspace/SYsU-lang/tester/mytest.c:100:14>
+r_square ']'		Loc=</workspace/SYsU-lang/tester/mytest.c:100:16>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:100:18>
+string_literal '"hello\n"'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:100:20>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:100:29>
+int 'int'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:101:5>
+identifier 'len'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:101:9>
+equal '='	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:101:13>
+sizeof 'sizeof'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:101:15>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:101:21>
+identifier 'str'		Loc=</workspace/SYsU-lang/tester/mytest.c:101:22>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:101:25>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:101:26>
+identifier 'test_extern'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:102:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:102:16>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:102:17>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:102:18>
+identifier 'test_op'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:103:5>
+l_paren '('		Loc=</workspace/SYsU-lang/tester/mytest.c:103:12>
+r_paren ')'		Loc=</workspace/SYsU-lang/tester/mytest.c:103:13>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:103:14>
+return 'return'	 [StartOfLine] [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:105:5>
+numeric_constant '0'	 [LeadingSpace]	Loc=</workspace/SYsU-lang/tester/mytest.c:105:12>
+semi ';'		Loc=</workspace/SYsU-lang/tester/mytest.c:105:13>
+r_brace '}'	 [StartOfLine]	Loc=</workspace/SYsU-lang/tester/mytest.c:106:1>
+eof ''		Loc=</workspace/SYsU-lang/tester/mytest.c:106:2>
